@@ -26,7 +26,7 @@ import org.infinispan.client.hotrod.RemoteCacheManager;
 /**
  * Provides various resources including a cache manager.
  * 
- * @author Burr Sutter
+ * @author mupadras
  * 
  */
 public class Resources {
@@ -44,12 +44,12 @@ public class Resources {
     }
 
     @Produces
-    RemoteCacheManager getCacheManager1() throws Exception {
+    RemoteCacheManager getCacheManager() throws Exception {
         return distributedCache.getCacheManager();
     }
     
     @Produces
-    RemoteCacheManager getCacheManager2() throws Exception {
+    RemoteCacheManager getCacheManager1() throws Exception {
         return replicatedCache.getCacheManager();
     }
 

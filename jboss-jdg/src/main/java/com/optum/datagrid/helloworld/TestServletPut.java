@@ -35,7 +35,7 @@ import java.util.logging.Logger;
 /**
  * A simple servlet storing value for key "hello" into the cache.
  * 
- * @author Pete Muir
+ * @author mupadras
  * 
  */
 @SuppressWarnings("serial")

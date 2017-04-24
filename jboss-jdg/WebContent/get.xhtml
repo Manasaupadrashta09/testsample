@@ -26,20 +26,20 @@
       <h:form id="getForm">
          <h:panelGrid columns="3">
             <h:outputLabel for="key">Key:</h:outputLabel>
-            <h:inputText id="key" value="#{getCacheManager.key}" />
+            <h:inputText id="key" value="#{getCache.key}" />
             <h:message for="key" />
             
          </h:panelGrid>
          <h:commandButton id="Get" value="Get"
-            action="#{getCacheManager.getOne}" />
+            action="#{getCache.getOne}" />
             
          <h:commandButton id="GetAll" value="Get All"
-            action="#{getCacheManager.getAll}" />
+            action="#{getCache.getAll}" />
             
       </h:form>
       <h:panelGrid columns="2">
          <h:outputLabel for="key">Result:</h:outputLabel>
-         <h:outputText value="#{getCacheManager.message}" rendered="#{not empty getCacheManager.message}"/>
+         <h:outputText value="#{getCache.message}" rendered="#{not empty getCache.message}"/>
       </h:panelGrid><br/>
       <h:link outcome="/put.xhtml" value="Put Some More" />
    </ui:define>

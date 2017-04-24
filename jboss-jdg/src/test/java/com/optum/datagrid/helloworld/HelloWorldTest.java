@@ -27,8 +27,7 @@ import static org.jboss.arquillian.graphene.Graphene.waitModel;
  * There are 2 tests, one for the put.jsf/get.jsf pages, where a user can add arbitrary entries, and one for
  * TestServletPut (adds entry <hello, world>) and TestServletGet (retrieves key <hello>) pages.
  *
- * @author jmarkos@redhat.com
- * @author jholusa@redhat.com
+ * @author mupadras
  */
 @RunWith(Arquillian.class)
 @RunAsClient

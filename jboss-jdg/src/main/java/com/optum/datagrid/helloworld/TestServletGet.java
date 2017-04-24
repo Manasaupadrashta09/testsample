@@ -35,7 +35,7 @@ import org.infinispan.client.hotrod.RemoteCacheManager;
 /**
  * A simple servlet requesting the cache for key "hello".
  * 
- * @author Pete Muir
+ * @author mupadras
  * 
  */
 @SuppressWarnings("serial")

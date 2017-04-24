@@ -19,7 +19,7 @@ import org.infinispan.client.hotrod.configuration.NearCacheMode;
 
 /**
  *
- * @author
+ * @author mupadras
  */
 public class DistributedCache {
 	private static final String ENV_VAR_JDG_SERVICE_NAME = "JDG_SERVICE_NAME";

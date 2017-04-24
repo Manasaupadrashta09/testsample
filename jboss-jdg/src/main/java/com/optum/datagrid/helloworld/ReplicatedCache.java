@@ -24,7 +24,7 @@ import org.infinispan.client.hotrod.RemoteCacheManager;
 import com.optum.datagrid.helloworld.DistributedCache;
 /**
  *
- * @author
+ * @author mupadras
  */
 public class ReplicatedCache {
 	private static final String ENV_VAR_JDG_SERVICE_NAME = "JDG_SERVICE_NAME";
